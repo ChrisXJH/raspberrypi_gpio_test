@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "wiringPi.h"
 
-#define LED 5;
+#define LED 5
 
 int main(int argc, char const *argv[]) {
     wiringPiSetupGpio();
